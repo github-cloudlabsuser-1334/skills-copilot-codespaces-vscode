@@ -15,5 +15,6 @@ def generate_suggestions(query):
     words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape"]
     return [word for word in words if query.lower() in word.lower()]
 
+
 if __name__ == '__main__':
     app.run(debug=True, port=8080)

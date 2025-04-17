@@ -7,7 +7,6 @@ if n == 0 or n == 1:
 return 1
 else:
 return n * factorial(n-1)# Refactor this code to use a loop instead of recursion
-
 # test the refactored code
 
 def factorial(n):
@@ -16,4 +15,3 @@ def factorial(n):
         result *= i
     return result   
 
-    
